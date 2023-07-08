@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="index.css">
+    <!-- <script src="index.js"></script> -->
+    <title>Studymonk</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                </ul>
+
+
+                <a class="btn btn-primary mx-3" href="/login.html" role="button">LOGIN</a>
+                <a class="btn btn-primary" href="/signup.html" role="button">SIGNUP</a>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <img src="webproject.png" class="img-fluid" alt="...">
+
+    <hr>
+    <div class="container my-5 d-flex justify-content-center">
+        <h1 class="">Click on the button to see the client data</h1>
+        <br>
+        <button id="showall" class="btn btn-primary ">USER   DATA</button>
+        <hr>
+</div>
+<div class="container my-5">
+        <div class="row" id="allList">
+            <!-- <div class="col-3">
+        <div class="card text-white bg-primary mb-3">
+           <div class="card-body">
+            <p><strong>
+                Name:
+            </strong>rahul</p>
+            <span><strong>Age:</strong>20</span>
+           </div>
+        </div>
+    </div> -->
+        </div>
+
+    </div>
+    <hr>
+
+
+    <div class="container w-50">
+   <h1 class="d-flex justify-content-center">Fill the client data</h1>
+        <label class="lb name" for="name">Name:</label>
+        <input name="nome" id="name" type="text" class="infos">
+
+        <label for="email" class="lb name">E-mail:</label>
+        <input name="email" id="email" type="email" class="infos">
+
+        <label for="lname" class="lb name">Age:</label>
+        <input name="age" id="age" type="name" class="infos">
+
+
+        <button id="btn" onclick="take()">submit data</button>
+
+
+    </div>
+
+
+
+<div class="d-flex justify-content-center">
+
+
+    <div class=" my-5 mx-5" id="">
+        <div class="">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <strong >
+                        Name:</strong> 
+                     <p id="client1"> Demo</p>
+                    <strong >
+                        Name:
+                    </strong> <p id="email1"> Demo@gmail.com</p>
+                    <strong>Age: </strong>  <span id="age1"> 1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- div overview project -->
+
+
+<h1 class="head1 d-flex justify-content-center my-5">We love transforming product ideas to digital realities.</h1>
+<div class="game my-5">
+<img src="https://wallpapercave.com/wp/0f1Lulf.jpg" class="rounded float-end w-50 p-3 h-50" alt="..."></img>
+<div w-50 p-3 h-100 my-5>
+    <h1 class="text-primary">Gameing ,</h1>
+<h1 class="gameh2 my-5">Micropets' side-scrolling nft game </h1> <h4>MicroPets Runner is a classic side-scrolling runner game that allows users to proceed with their game character (a MicroPets NFT product) picking up coins (to earn rewards)  users to proceed with their game character on their way past monsters and obstacles.</h4>
+</div>
+</div>
+
+
+
+<div class="food">
+
+<img src="https://www.smarther.co/wp-content/uploads/2022/03/Food-Delivery-App-In-India.jpg" class="rounded float-start w-50 p-3 h-50" alt="..."></img>
+<div w-50 p-3 h-100 my-5>
+<h1 class="text-primary">Food App ,</h1>
+<h1 class="gameh3 my-5">Foodly - the hub of delicious cuisines </h1> <h4>Order breakfast, lunch, or dinner, rate your favorite restaurants and track your order - one platform to curb your hunger that allows users to proceed with their game character (a MicroPets NFT product) picking up coins (to earn rewards)  users to proceed with their game character.</h4>
+</div>
+</div>
+
+<div class="mobile ">
+<img src="https://wallpaperaccess.com/full/2525117.jpg" class="rounded float-end w-50 p-3 h-50 my-5" alt="..."></img>
+<div w-50 p-3 h-100 my-2>
+
+    <h1 class="text-primary my-2">Mobile App ,</h1>
+<h1 class="gameh2 my-3">Launch new adverts and engage with your customers</h1><h4> an all-in-one platform that promotes your brand and builds that allows users to proceed with their game character (a MicroPets NFT product) picking up coins (to earn rewards) game character  engagement.</h4>
+
+</div>
+</div>
+
+<div class="food">
+
+<img src="https://usabilitygeek.com/wp-content/uploads/2018/08/ux-case-study-google-maps-waze-lead.jpg" class="rounded float-start w-50 p-3 h-25" alt="..."></img>
+<div w-50 p-3 h-100 my-5>
+
+<h1 class="text-primary">Map App ,</h1>
+<h1 class="gameh3 my-3">Curious - a social platform to connect  globally with complete anonymity</h1> <h4>Get insights into the latest happenings and connect with that allows users to proceed with their game character (a MicroPets NFT product) picking up coins (to earn rewards)  users to proceed with their game character people .</h4>
+
+</div>
+</div>
+
+<div>
+<div class="awards my-5 row d-flex justify-content-around">
+    <h1 class="d-flex justify-content-center">Awards & Recognisation</h1>
+    <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://png.pngtree.com/template/20190810/ourmid/pngtree-abstract-creative-certificate-of-appreciation-award-template-image_292110.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+    <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://png.pngtree.com/template/20190703/ourmid/pngtree-certificate-vector-templates-image_225516.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+    <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://png.pngtree.com/png-clipart/20210314/original/pngtree-professional-certificate-for-education-needs-png-image_6101122.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div> 
+  
+  <div class="partner my-5 row d-flex justify-content-around">
+    <h1 class="d-flex justify-content-center">We partner with the world’s <br /> technology leaders.</h1>
+  
+    <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://c4.wallpaperflare.com/wallpaper/315/801/199/google-chrome-wallpaper-preview.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://c4.wallpaperflare.com/wallpaper/723/303/705/facebook-logo-3d-wallpaper-preview.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://besthqwallpapers.com/Uploads/28-11-2021/185739/microsoft-3d-logo-4k-gray-brickwall-windows-11-creative.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card col-3 my-5" style="width: 18rem;">
+    <img src="https://e0.pxfuel.com/wallpapers/552/479/desktop-wallpaper-amazon-logo-amazon.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="project my-5">
+    <h1 class="d-flex justify-content-center">14 years of building digital products and we are <br /> just getting started!</h1>
+    <div class="d-flex justify-content-center">
+    <a class="btn btn-success my-5 h-25 w-25 " href="#" role="button"> <h4>Let's Start Project</h4></a>
+    </div>
+   
+  </div>
+  <hr />
+  <footer>
+    <div class="container my-5">
+      <span>560 Village Blvd.,</span>
+      <span class="float-end ">
+      <span class="fw-bold mx-3"><a href="">Career</a></span>
+      <span class="fw-bold mx-3"><a href="">Blog</a></span>
+      <span class="fw-bold mx-3"><a href="">Process</a></span>
+      <span class="fw-bold mx-3"><a href="">Client</a></span>
+      </span>
+    </div>
+    <div class="container my-5">
+      <span>Suite 120 #3</span>
+      <span class="float-end ">
+      <span class="fw-bold mx-3"><a href="">Contact</a></span>
+      <span class="fw-bold mx-3"><a href="">Event</a></span>
+      <span class="fw-bold mx-3"><a href="">Work</a></span>
+      <span class="fw-bold mx-3"><a href="">University</a></span>
+      </span>
+    </div>
+    <div class="container my-5">
+      <span>West Palm Beach, FL 33409</span>
+      <span class="float-end ">
+      <span class="fw-bold mx-3"><a href="">Testimonial</a></span>
+      <span class="fw-bold mx-3"><a href="">Press Release</a></span>
+      <span class="fw-bold mx-3"><a href="">Culture book</a></span>
+      <span class="fw-bold mx-3"><a href="">Manifesto</a></span>
+      </span>
+    </div>
+  <hr />
+    <div class="container my-5">
+    <span>	&#169; 2023 Rahul. All Rights Reserved.</span>
+    <span class="fw-bold mx-2"><a href="">Term of use. </a></span>
+    <span class="fw-bold "><a href="">Privacy policy</a></span>
+    <span class="float-end ">
+ 
+      
+      </span>
+    </div>
+  </footer>
+
+</div>
+
+
+
+
+
+    <!-- </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- javascript function -->
+
+    <script>
+        // let showall1= document.getElementById("showall");
+
+        showall.addEventListener('click', function () {
+            allEmployees()
+        })
+        function allEmployees() {
+
+            var xmlhttp = new XMLHttpRequest();
+            var url = "https://dummyjson.com/users";
+            xmlhttp.open('GET', url, true);
+            xmlhttp.onload = function () {
+                if (this.readyState == 4 && this.status == 200) {
+
+                    allData = JSON.parse(xmlhttp.responseText);
+                }
+                datastore = ""
+                for (single in allData.users) {
+                    datastore += `  <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+           <div class="card-body">
+            <p><strong>
+                Name:
+            </strong>${allData.users[single].firstName}</p>
+            <p><strong>Email:</strong>${allData.users[single].email}</p>
+            <span><strong>Age:</strong>${allData.users[single].age}</span>
+           </div>
+        </div>
+    </div> `
+
+                }
+
+                allList.innerHTML = datastore;
+                console.log(allData)
+
+            }
+            xmlhttp.send();
+        }
+
+
+        function take() {
+            let Name = document.getElementById("name").value;
+
+            let Email = document.getElementById("email").value;
+
+            let Age = document.getElementById("age").value;
+
+            let a = client1.innerHTML = Name
+            let b = email1.innerHTML = Email
+            let c = age1.innerHTML = Age
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
